@@ -1,0 +1,152 @@
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    background-color: #212B2D;
+}
+
+.container {
+    width: 70%;
+    margin-left: 220px;
+}
+
+.container .intro {
+   background-image: url(../img/page-title-background.jpg);   
+    background-size: cover;
+    padding: 60px;
+    height: 160px;
+}
+
+.container .intro .text {
+    color: rgba(255, 255, 255, 0.781);
+    text-transform: capitalize;
+}
+
+.container .intro .text .title {
+    font-size: 35px;
+}
+
+.container .intro .text p {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.container .navbar {
+    background-color: #223A3B;
+    height: 40px;
+}
+
+.container .navbar ul {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+.container .navbar ul li{
+    margin-top: 10px;
+}
+.container .navbar ul li a {
+    color: rgba(255, 255, 255, 0.781);
+    text-decoration: none;
+}
+.container .box {
+    display: flex;
+    justify-content: space-between;
+}
+.container .left {
+    width: 30%;
+}
+
+.container .left .main-menu {
+    border: 1px solid #303030;
+    border-right: 0;
+}
+
+.container .left p {
+    font-size: 22px;
+    font-weight: bold;
+    color: rgba(184, 184, 184, 0.781);
+    margin-left: 40px;
+}
+.container .left .main-menu ul li a{
+    color:  rgba(184, 184, 184, 0.781);;
+}
+.container .left .main-menu ul li pre {
+    display: inline;
+    color: rgba(184, 184, 184, 0.781);
+}
+
+.container .left .main-menu ul li {
+    margin-top: 4px;
+    margin-left: 15px;
+}
+
+.container .block .content p {
+    font-size: 15px;
+    margin-left: 20px;
+    font-weight: 300;
+}
+
+.container .content {
+    border: 1px solid #303030;
+    border-top: 0;
+    border-right: 0;
+}
+
+.container .right {
+    width: 70%;
+    margin-left: 20px;
+}
+
+.container .right p {
+    font-size: 22px;
+    font-weight: bold;
+    color: rgba(184, 184, 184, 0.781);
+}
+.container .right span{
+    color: rgba(184, 184, 184, 0.781);
+}
+.container .right .gallery{
+    border-top: 1px solid rgba(184, 184, 184, 0.781);
+    padding-top: 30px;
+
+}
+
+.container .right .right-box{
+    display: flex;
+    justify-content: space-between;
+}
+.container .right .right-box button{
+    cursor: pointer;
+    display: block;
+    margin-top: 20px;
+    background-color: rgba(184, 184, 184, 0.781);
+    height: 30px;
+    border: none;
+    font-weight: 700;
+}
+.container .right .right-box .subscription{
+    width: 45%;
+}
+.container .right .right-box .border{
+    width: 10%;
+    border-right: 1px solid rgba(184, 184, 184, 0.781);
+    margin-top: 20px;
+}
+.container .right .right-box .services{
+    width: 45%;
+    margin-left: 20px;
+}
+.container .copyright{
+    text-align: center;
+    color: rgba(184, 184, 184, 0.781);
+}
+.container .copyright .border{
+    margin: 30px;
+    margin-bottom: 20px ;
+    border-top: 1px solid rgba(184, 184, 184, 0.781);
+}
